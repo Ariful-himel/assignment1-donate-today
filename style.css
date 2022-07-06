@@ -1,69 +1,79 @@
-*{
+* {
           margin: 0 auto;
           padding: 0 auto;
           font-family: 'Libre Baskerville', serif;
-font-family: 'Noto Sans SC', sans-serif;
-font-family: 'Poppins', sans-serif;
+          font-family: 'Noto Sans SC', sans-serif;
+          font-family: 'Poppins', sans-serif;
 }
-h1{
+
+h1 {
           color: rgb(245, 247, 248);
           font-size: 4rem;
 }
-p{
-          color:rgb(236, 242, 242);
+
+p {
+          color: rgb(236, 242, 242);
           font-size: 30px;
           font-weight: 68px;
 }
+
 /*header*/
-.top-banner{
+.top-banner {
           background-image: url(images/donation1.jpg);
           background-size: 100% 100%;
           width: 100%;
           height: 600px;
           text-align: center;
           background-repeat: no-repeat;
-          padding: 50px 5px 10px 5px ;
-          
+          padding: 50px 5px 10px 5px;
+
 }
-.header-part{
-         padding: 50px;
+
+.header-part {
+          padding: 50px;
 }
-.header-part a{
-          color:white;
+
+.header-part a {
+          color: white;
           text-decoration: none;
           font-size: 20px;
           border-radius: 4px;
           background-color: rgb(245, 250, 250);
           padding: 5px 25px;
-          background-image: linear-gradient(to right ,orange,blue);
-          
+          background-image: linear-gradient(to right, orange, blue);
+
 }
-/*main*/
-.donate{
+
+/*main donate today*/
+.donate {
           background: rgb(248, 251, 252);
           text-align: center;
           height: 500px;
           padding: 100px 40px;
-          
+
 }
+
 .donate-today h1 {
-          color:black;
+          color: black;
           font-size: 50px;
-          
-          
+
+
 }
-.donate-today p{
-          color:rgb(143, 140, 140);
+
+.donate-today p {
+          color: rgb(143, 140, 140);
           font-size: 20px;
           margin-top: 30px;
 }
+
 .donate-money ul {
           display: flex;
           list-style-type: none;
           width: 100%;
           margin-top: 100px;
 }
-.donate-money ul a{
+
+.donate-money ul a {
           text-decoration: none;
           border-radius: 17px;
           padding: 40px 40px;
@@ -71,48 +81,55 @@ p{
           font-weight: bold;
           box-sizing: border-box;
           background: rgb(226, 219, 219);
-          
+
 }
-.money3{
-          color:rgb(192, 106, 21);
+
+.money3 {
+          color: rgb(192, 106, 21);
           border: 3px solid rgb(212, 129, 21);
           background-color: rgb(220, 153, 30);
 
 }
-.donate-btn{
-          color:white;
+
+.donate-btn {
+          color: white;
           text-decoration: none;
           font-size: 20px;
           border-radius: 4px;
           background-color: antiquewhite;
           padding: 5px 25px;
-          background-image: linear-gradient(to right ,orange,blue);
+          background-image: linear-gradient(to right, orange, blue);
 }
-.input-tk{
-          
+
+.input-tk {
+
           padding: 10px 240px;
           background-color: rgb(233, 238, 239);
-         border-bottom: 2px solid;
+          border-bottom: 2px solid;
           border-top: none;
           border-left: none;
           border-right: none;
           border-radius: 4px;
-          
+          outline: none;
+          font-size: 30px;
+
 }
 
 /*Our Donater plan*/
 
-.donate-plan{
+.donate-plan {
           background: rgb(225, 238, 243);
           text-align: center;
           height: 500px;
-          padding: 70px 40px;    
+          padding: 70px 40px;
 }
-.donate-area h1{
+
+.donate-area h1 {
           font-size: 20px;
           color: black;
 }
-.donate-area p{
+
+.donate-area p {
           font-size: 10px;
           color: black;
 }
@@ -120,65 +137,71 @@ p{
 .donate-area {
           margin-top: 10px;
           display: flex;
-          
-         
           width: 100%;
           height: 300px;
-          
+
 }
-.food{
+
+.food {
           border: 2px solid;
-          padding: 24px ;
+          padding: 24px;
           margin: 20px 60px;
-          background-color: rgb(190, 210, 203);
+          background-color: rgba(206, 245, 231, 0.889);
           box-shadow: 5px 1px 5px 1px;
 }
-.shelter{
+
+.shelter {
           border: 2px solid;
-          padding: 24px ;
+          padding: 24px;
           margin: 20px 60px;
-          background-color: rgb(234, 212, 233);
+          background-color: rgba(242, 221, 241, 0.963);
           box-shadow: 5px 1px 5px 1px;
 }
-.education{
+
+.education {
           border: 2px solid;
-          padding: 24px ;
+          padding: 24px;
           margin: 20px 60px;
-           box-shadow: 5px 1px 5px 1px;
-          background-color: rgba(212, 201, 177, 0.958);
+          box-shadow: 5px 1px 5px 1px;
+          background-color: rgba(230, 237, 220, 0.958);
 }
 
 /*details*/
-.details-1,.details-2{
+.details-1,
+.details-2 {
           width: 100%;
           height: 420px;
           display: flex;
 }
 
-.half-width  h1{
+.half-width h1 {
           font-size: 20px;
           color: black;
           margin-top: 100px;
 }
-.half-width  p{
+
+.half-width p {
           font-size: 10px;
           color: black;
 }
-.half-width  a{
-          color:white;
+
+.half-width a {
+          color: white;
           text-decoration: none;
           font-size: 20px;
           border-radius: 4px;
           background-color: antiquewhite;
           padding: 5px 25px;
-          background-image: linear-gradient(to right ,orange,blue);
+          background-image: linear-gradient(to right, orange, rgb(209, 135, 60));
 }
-.half-width img{
+
+.half-width img {
           width: 100%;
           height: 320px;
           border-radius: 50%;
-          
+
 }
+
 .half-width {
           width: 40%;
           height: 220px;
@@ -186,15 +209,119 @@ p{
           margin-left: 20px;
           border-radius: 5px;
 }
+
+/*news part*/
+.News {
+          width: 100%;
+          text-align: center;
+          height: 500px;
+          background: whitesmoke;
+          color: black;
+          padding: 20px;
+
+}
+
+.News h1 {
+
+          color: black;
+
+}
+
+.News p {
+
+          color: black;
+          font-size: 15px;
+
+}
+
+.news-area {
+
+          width: 100%;
+          height: 220px;
+          border-radius: 5px;
+          display: flex;
+}
+
+.news-1 img {
+          width: 100%;
+          height: 300px;
+          box-shadow: 2px 2px 2px 2px rgb(207, 189, 157);
+
+}
+
+.news-1 {
+          width: 23%;
+          height: 100px;
+}
+
+.news-area a {
+          text-decoration: none;
+          text-align: left center;
+}
+
+/*stories*/
+
+.Stories {
+          width: 100%;
+          text-align: center;
+          height: 500px;
+          background: whitesmoke;
+          color: black;
+          padding: 50px 20px;
+
+}
+
+
+.Stories h1 {
+
+          color: rgb(202, 88, 88);
+          font-size: 35px;
+          padding: 20px;
+
+}
+
+.Stories p {
+
+          color: black;
+          font-size: 15px;
+
+}
+
+.Stories-area {
+
+          width: 100%;
+          height: 220px;
+          border-radius: 5px;
+          display: flex;
+}
+
+.Stories-1 img {
+          width: 100%;
+          height: 300px;
+          box-shadow: 2px 2px 2px 2px rgb(141, 191, 212);
+}
+
+.Stories-1 {
+          width: 30%;
+          height: 100px;
+}
+
+.Stories-area a {
+          text-decoration: none;
+          text-align: left center;
+}
+
 /*<!--main Get my update-->*/
 
-.update{
+.update {
           background: rgb(225, 238, 243);
           text-align: center;
           height: 300px;
-          padding: 70px 40px;    
+          padding: 70px 40px;
+          width: 100%;
 }
-.my-update2{
+
+.my-update2 {
           display: flex;
           background: wheat;
           height: 50px;
@@ -202,31 +329,41 @@ p{
           border-radius: 5px;
 
 }
-.my-update h1{
+
+.my-update h1 {
           font-size: 20px;
           color: black;
 }
-.my-update p{
+
+.my-update p {
           font-size: 10px;
           color: black;
 }
-.from-div{
+
+.from-div {
           display: flex;
           margin-top: 15px;
-         
+          outline: none;
+
 }
-.from-area{
+
+.from-area {
 
           width: 100%;
-          color:black;
-    
+          color: black;
+          outline: none;
+
 }
-#email{
+
+#email {
           background: rgb(225, 212, 212);
           border: 1px solid white;
           border-radius: 3px;
+          outline: none;
+
 }
-#subscribe{
+
+#subscribe {
           background: rgb(227, 50, 121);
           border: 1px solid white;
           border-radius: 3px;
@@ -235,25 +372,35 @@ p{
 
 
 
+
+
+
 /*footer*/
-footer{
-          height: 100px;
-          background:black ;
+
+
+.f-part {
+
+          background: black;
+          width: 100%;
 }
-.f-p{
-          color:white;
+
+.f-p {
+          color: white;
           font-size: 10px;
           text-align: center;
           margin-top: 5px;
 }
-h2{
-          color:rgb(232, 32, 126);
+
+h2 {
+          color: rgb(232, 32, 126);
           font-size: 20px;
           text-align: center;
           font-family: italic;
           padding: 10px;
 }
-/**/
+
+
+
 /**/
 /**/
 /**/
