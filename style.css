@@ -197,8 +197,9 @@ p{
 .my-update2{
           display: flex;
           background: wheat;
-          height: 100px;
-          margin: 30px 200px 30px 200px;
+          height: 50px;
+          margin: 30px 300px 30px 300px;
+          border-radius: 5px;
 
 }
 .my-update h1{
@@ -209,23 +210,29 @@ p{
           font-size: 10px;
           color: black;
 }
-.my-update2 .from-area{
+.from-div{
+          display: flex;
+          margin-top: 15px;
+         
+}
+.from-area{
+
           width: 100%;
-          margin-top: 400px;
-          color:black
+          color:black;
+    
 }
 #email{
-          width: 100%;
-          background: rgb(233, 226, 226);
-          border-radius: 5px;
-          display: flex;
+          background: rgb(225, 212, 212);
+          border: 1px solid white;
+          border-radius: 3px;
 }
 #subscribe{
-          width: 100%;
-          background: rgb(233, 226, 226);
-          border-radius: 5px;
-          display: flex;
+          background: rgb(227, 50, 121);
+          border: 1px solid white;
+          border-radius: 3px;
 }
+
+
 
 
 /*footer*/
